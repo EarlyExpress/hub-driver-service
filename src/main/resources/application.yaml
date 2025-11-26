@@ -110,7 +110,7 @@ springdoc:
     oauth2-redirect-url: /swagger-ui/oauth2-redirect.html
   # 실제 서버 URL 설정 (프록시 URL)
   server:
-    url: http://localhost:4000
+    url: http://localhost:4016
 
 client:
   inventory-service:
@@ -125,8 +125,7 @@ client:
     url: ai-service
   last-mile-service:
     url: last-mile-service
-  hub-driver-service:
-    url: hub-driver-service
+
 
 # ========================================
 # 서비스별 커스터마이징이 필요한 설정 예시
