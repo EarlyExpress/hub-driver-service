@@ -125,6 +125,8 @@ client:
     url: ai-service
   last-mile-service:
     url: last-mile-service
+  hub-driver-service:
+    url: hub-driver-service
 
 # ========================================
 # 서비스별 커스터마이징이 필요한 설정 예시
